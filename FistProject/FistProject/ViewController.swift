@@ -31,5 +31,11 @@ class ViewController: UIViewController {
         alterConrtoller.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
         present(alterConrtoller, animated: true, completion: nil)
     }
+    
+    @IBAction func theothershowMessage(sender: UIButton) {
+        let alterConrtoller = UIAlertController(title: "Welcome to my second App", message: "no more", preferredStyle: UIAlertController.Style.alert)
+        alterConrtoller.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+        present(alterConrtoller, animated: true, completion: nil)
+    }
 }
 
